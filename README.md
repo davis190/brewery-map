@@ -19,3 +19,11 @@ You can adjust the columns/rows in the API call that is used to fetch the data.
 | Lakefront Brewery          | Revolution Brewery   |
 | Milwaukee Brewing Company  | Goose Island Brewing |
 | Eagle Park Brewing Company |                      |
+
+## Site
+
+Pretty basic site - the map will occupy 100% of the page. Below the map will be a list of all of the breweries that it mapped. When the map loads there is an overlay of a loading page that show progress as it loads all of the breweries. This can take some time as there are limits to how quickly you can call the google APIs. if you reach a limi the javascript will take a 10 second pause and then resume.
+
+The map will look like the below.
+
+![Brewery Map](images/map.png "Brewery Map")
