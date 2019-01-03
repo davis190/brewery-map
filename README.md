@@ -9,16 +9,11 @@ var API_KEY = "API_KEY";
 var SHEET_ID = "SHEET_ID";
 ```
 
-The Google sheet is formatted as below. The first column does not matter and is ignored. The second column is used to extract the states which are appended to the brewery name for searching. Every row after that is a unique brewery.
+The Google sheet is formatted as below. The first column does not matter and is ignored. The second column is used to extract the states which are appended to the brewery name for searching. Every row after that is a unique brewery found in the state that is contained at the top of the column. Blank cells are fine and are also ignored.
 
-You can adjust the columns/rows in the API call that is used to fetch the data.
+You can adjust the columns/rows in the API call that is used to fetch the data if your sheet varries. 
 
-| Total breweries: 5         | Total States: 2      |
-|----------------------------|----------------------|
-| Wisconsin (3)              | Illinois (2)         |
-| Lakefront Brewery          | Revolution Brewery   |
-| Milwaukee Brewing Company  | Goose Island Brewing |
-| Eagle Park Brewing Company |                      |
+![Brewery Map Google Sheet](images/brewery_map_sheet.png "Brewery Map Google Sheet")
 
 ## Site
 
@@ -27,3 +22,7 @@ Pretty basic site - the map will occupy 100% of the page. Below the map will be 
 The map will look like the below.
 
 ![Brewery Map](images/brewery_map.png "Brewery Map")
+
+Here is am image that show the loading overlay.
+
+![Brewery Map Loading](images/brewery_map_loading.png "Brewery Map Loading")
