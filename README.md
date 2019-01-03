@@ -26,4 +26,4 @@ Pretty basic site - the map will occupy 100% of the page. Below the map will be 
 
 The map will look like the below.
 
-![Brewery Map](images/map.png "Brewery Map")
+![Brewery Map](images/brewery_map.png "Brewery Map")
