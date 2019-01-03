@@ -14,6 +14,7 @@ The Google sheet is formatted as below. The first column does not matter and is 
 You can adjust the columns/rows in the API call that is used to fetch the data.
 
 | Total breweries: 5         | Total States: 2      |
+|----------------------------|----------------------|
 | Wisconsin (3)              | Illinois (2)         |
 | Lakefront Brewery          | Revolution Brewery   |
 | Milwaukee Brewing Company  | Goose Island Brewing |
